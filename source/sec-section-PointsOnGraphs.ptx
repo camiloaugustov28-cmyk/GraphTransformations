@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-PointsOnGraphs" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Effect of transformations on points</title>
+
+  <p> While the corresponding points on the graphs of vertical transformations
+    may seem clear, the corresponding points on the graphs of the horizontal
+    transformations can create some confusion. Let's see the logic argument behind
+    the characterization we observed. </p>
+
+  <p>
+    <proposition xml:id="prop-PointsHorizontalShift">
+      <statement>
+        <p>
+          Let the graph of <m>g</m> be a horizontal shift of <m>h</m> units of the graph of <m>f</m>. If the point <m>(x,y)</m> lies on the graph of <m>f</m>, then the point <m>(x+h,y)</m> lies on the graph of <m>g</m>.
+        </p>
+      </statement>
+    </proposition>
+  </p>
+
+</section>
