@@ -25,7 +25,7 @@
         <md>
           Graph(f)=\lbrace (x,y):x\in D\rbrace
         </md>
-        Let <m>g</m> be a function with domain <m>E</m> defined by <m>g(z)=f(x-h)</m> (a horizontal shift of <m>f</m> by <m>h</m> units.)
+        Let <m>g</m> be a function with domain <m>E</m> defined by <m>g(z)=f(z-h)</m> (a horizontal shift of <m>f</m> by <m>h</m> units.)
         Then <m>z-h\in D</m>. Write <m>x=z-h</m> for some <m>x\in D</m>.
         Then
         <md>
