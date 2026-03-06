@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-chapter-proofs" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Some proofs</title>
+
+  <introduction>
+    <p> We will see some proofs of the studied behaviors and characteristics of the transformations. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-section-PointsOnGraphs.ptx" />
+
+</chapter>
