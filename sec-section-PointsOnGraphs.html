@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Section Title</title>
+<title>Effect of transformations on points</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -141,13 +141,13 @@ eBookConfig.enable_chatcodes =  false;
 <div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
 <li class="toc-item toc-chapter contains-active">
-<div class="toc-title-box"><a href="ch-chapter-proofs.html" class="internal"><span class="codenumber">1</span> <span class="title">Chapter Title</span></a></div>
-<ul class="structural toc-item-list contains-active"><li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-section-PointsOnGraphs.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Section Title</span></a></div></li></ul>
+<div class="toc-title-box"><a href="ch-chapter-proofs.html" class="internal"><span class="codenumber">1</span> <span class="title">Some proofs</span></a></div>
+<ul class="structural toc-item-list contains-active"><li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-section-PointsOnGraphs.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Effect of transformations on points</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-section-PointsOnGraphs"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Section Title</span>
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Effect of transformations on points</span>
 </h2>
 <div class="para" id="sec-section-PointsOnGraphs-2">While the corresponding points on the graphs of vertical transformations may seem clear, the corresponding points on the graphs of the horizontal transformations can create some confusion. Let’s see the logic argument behind the characterization we observed.<div class="autopermalink" data-description="Paragraph"><a href="#sec-section-PointsOnGraphs-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
@@ -159,7 +159,29 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <div class="autopermalink" data-description="Proposition 1.1.1"><a href="#prop-PointsHorizontalShift" title="Copy heading and permalink for Proposition 1.1.1" aria-label="Copy heading and permalink for Proposition 1.1.1">🔗</a></div></article><div class="autopermalink" data-description="Paragraph"><a href="#sec-section-PointsOnGraphs-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Section 1.1: Section Title"><a href="#sec-section-PointsOnGraphs" title="Copy heading and permalink for Section 1.1: Section Title" aria-label="Copy heading and permalink for Section 1.1: Section Title">🔗</a></div></section></div>
+<div class="para" id="sec-section-PointsOnGraphs-4">
+<details id="sec-section-PointsOnGraphs-4-1" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h3 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3></summary><article class="hiddenproof knowl__content"><div class="para logical" id="sec-section-PointsOnGraphs-4-1-1">
+<div class="para">Let <span class="process-math">\(y=f(x)\)</span> be a function with domain <span class="process-math">\(D\text{.}\)</span> By definition</div>
+<div class="displaymath process-math" id="sec-section-PointsOnGraphs-4-1-1-3">
+\begin{equation*}
+Graph(f)=\lbrace (x,y):x\in D\rbrace
+\end{equation*}
+</div>
+<div class="para">Let <span class="process-math">\(g\)</span> be a function with domain <span class="process-math">\(E\)</span> defined by <span class="process-math">\(g(z)=f(x-h)\)</span> (a horizontal shift of <span class="process-math">\(f\)</span> by <span class="process-math">\(h\)</span> units.) Then <span class="process-math">\(z-h\in D\text{.}\)</span> Write <span class="process-math">\(x=z-h\)</span> for some <span class="process-math">\(x\in D\text{.}\)</span> Then</div>
+<div class="displaymath process-math" id="sec-section-PointsOnGraphs-4-1-1-12">
+\begin{align*}
+Graph(g)= \amp \lbrace (z,g(z)):z\in E\rbrace\\
+= \amp \lbrace (z,f(z-h)):z\in E\rbrace\\
+= \amp \lbrace (x+h,f((x+h)-h)):x\in D\rbrace \\
+= \amp \lbrace (x+h,f(x)):x\in D\rbrace\\
+= \amp \lbrace (x,y):x\in D\rbrace
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-section-PointsOnGraphs-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Proof 1"><a href="#sec-section-PointsOnGraphs-4-1" title="Copy heading and permalink for Proof 1" aria-label="Copy heading and permalink for Proof 1">🔗</a></div></article></details><div class="autopermalink" data-description="Paragraph"><a href="#sec-section-PointsOnGraphs-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section 1.1: Effect of transformations on points"><a href="#sec-section-PointsOnGraphs" title="Copy heading and permalink for Section 1.1: Effect of transformations on points" aria-label="Copy heading and permalink for Section 1.1: Effect of transformations on points">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="ch-chapter-proofs.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
