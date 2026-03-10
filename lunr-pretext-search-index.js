@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Effect of transformations on points",
-  "body": " Effect of transformations on points  While the corresponding points on the graphs of vertical transformations may seem clear, the corresponding points on the graphs of the horizontal transformations can create some confusion. Let's see the logic argument behind the characterization we observed.     Let the graph of be a horizontal shift of units of the graph of . If the point lies on the graph of , then the point lies on the graph of .       Let be a function with domain . By definition Let be a function with domain defined by (a horizontal shift of by units.) Then . Write for some . Then     "
+  "body": " Effect of transformations on points  While the corresponding points on the graphs of vertical transformations may seem clear, the corresponding points on the graphs of the horizontal transformations can create some confusion. Let's see the logic argument behind the characterization we observed.     Let the graph of be a horizontal shift of units of the graph of . If the point lies on the graph of , then the point lies on the graph of .       Let be a function with domain . By definition Let be a function with domain defined by (a horizontal shift of by units.) Then . Write for some . Then        Let the graph of be a horizontal dilation of the graph of , i.e., . If the point lies on the graph of , then the point lies on the graph of .       Let be a function with domain . By definition Let be a function with domain defined by (a horizontal dilation of .) Then . Write for some . Then     "
 },
 {
   "id": "prop-PointsHorizontalShift",
@@ -35,6 +35,24 @@ var ptx_lunr_docs = [
   "number": "1",
   "title": "",
   "body": " Let be a function with domain . By definition Let be a function with domain defined by (a horizontal shift of by units.) Then . Write for some . Then   "
+},
+{
+  "id": "prop-PointsHorizontalDilation",
+  "level": "2",
+  "url": "sec-section-PointsOnGraphs.html#prop-PointsHorizontalDilation",
+  "type": "Proposition",
+  "number": "1.1.2",
+  "title": "",
+  "body": "  Let the graph of be a horizontal dilation of the graph of , i.e., . If the point lies on the graph of , then the point lies on the graph of .   "
+},
+{
+  "id": "sec-section-PointsOnGraphs-6-1",
+  "level": "2",
+  "url": "sec-section-PointsOnGraphs.html#sec-section-PointsOnGraphs-6-1",
+  "type": "Proof",
+  "number": "1",
+  "title": "",
+  "body": " Let be a function with domain . By definition Let be a function with domain defined by (a horizontal dilation of .) Then . Write for some . Then   "
 },
 {
   "id": "backmatter-2",
