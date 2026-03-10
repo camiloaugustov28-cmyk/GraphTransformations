@@ -33,7 +33,7 @@
           <mrow> = \amp \lbrace (z,f(z-h)):z\in E\rbrace</mrow>
           <mrow> = \amp \lbrace (x+h,f((x+h)-h)):x\in D\rbrace </mrow>
           <mrow> = \amp \lbrace (x+h,f(x)):x\in D\rbrace</mrow>
-          <mrow> = \amp \lbrace (x,y):x\in D\rbrace</mrow>
+          <mrow> = \amp \lbrace (x+h,y):x\in D\rbrace</mrow>
         </md>
          
       </p>
@@ -48,6 +48,28 @@
         </p>
       </statement>
     </proposition>
+  </p>
+
+  <p>
+    <proof>
+      <p>
+        Let <m>y=f(x)</m> be a function with domain <m>D</m>. By definition
+        <md>
+          Graph(f)=\lbrace (x,y):x\in D\rbrace
+        </md>
+        Let <m>g</m> be a function with domain <m>E</m> defined by <m>g(z)=f(Bz)</m> (a horizontal dilation of <m>f</m>.)
+        Then <m>Bz\in D</m>. Write <m>x=Bz</m> for some <m>x\in D</m>.
+        Then
+        <md>
+          <mrow>Graph(g)= \amp \lbrace (z,g(z)):z\in E\rbrace</mrow>
+          <mrow> = \amp \lbrace (z,f(Bz)):z\in E\rbrace</mrow>
+          <mrow> = \amp \left\lbrace \left(\frac{x}{B},f\left(B\left(\frac{x}{B}\right)\right)\right):x\in D\right\rbrace </mrow>
+          <mrow> = \amp \left\lbrace \left(\frac{x}{B},f(x)\right):x\in D\right\rbrace</mrow>
+          <mrow> = \amp \left\lbrace \left(\frac{x}{B},y\right):x\in D\right\rbrace</mrow>
+        </md>
+         
+      </p>
+    </proof>
   </p>
 
 </section>
