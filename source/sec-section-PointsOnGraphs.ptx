@@ -40,4 +40,14 @@
     </proof>
   </p>
 
+  <p>
+    <proposition xml:id="prop-PointsHorizontalDilation">
+      <statement>
+        <p>
+          Let the graph of <m>g</m> be a horizontal dilation of the graph of <m>f</m>, i.e., <m>g(x)=f(Bx)</m>. If the point <m>(x,y)</m> lies on the graph of <m>f</m>, then the point <m>\left(\frac{x}{B},y\right)</m> lies on the graph of <m>g</m>.
+        </p>
+      </statement>
+    </proposition>
+  </p>
+
 </section>
