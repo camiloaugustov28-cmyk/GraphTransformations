@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-section-TransformationsARC" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Effect of transformations on points</title>
+  <title>Effect of transformations on the average rate of change</title>
 
   <p> Now we formalize the observed relations between the average rate of change of a function <m>f</m> and the average rate of change of each of its respective transformations. </p>
 
@@ -21,7 +21,15 @@
   <p>
     <proof>
       <p>
-        Proof here
+        Since <m>g</m> is a vertical transformation of <m>f</m>, the <m>x-</m>values are not affected by the transformation. So, we compute the average rate of change of <m>g</m> over the same interval we compute the average rate of change of <m>f</m>. We have 
+        <md>
+            <mrow>ARC_{[a,b]}(g)= \amp\frac{g(b)-g(a)}{b-a} </mrow>
+            <mrow> =\amp\frac{(f(b)+k)-(f(a)+k)}{b-a} </mrow>
+            <mrow> = \amp\frac{f(b)-f(a)}{b-a} </mrow>
+            <mrow> = \amp ARC_{[a,b]}(f) </mrow>
+        </md>
+        
+        </p>
     </proof>
   </p>
 
