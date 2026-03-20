@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-TransformationsARC" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Effect of transformations on points</title>
+
+  <p> Now we formalize the observed relations between the average rate of change of a function <m>f</m> and the average rate of change of each of its respective transformations. </p>
+
+  <p>
+    <proposition xml:id="prop-ARCVerticalShift">
+      <statement>
+        <p>
+          If <m>g(x)=f(x)+k</m>, then <md>
+            ARC_{[a,b]}(g)=ARC_{[a,b]}(f)
+          </md>
+          
+        </p>
+      </statement>
+    </proposition>
+  </p>
+
+  <p>
+    <proof>
+      <p>
+        Proof here
+    </proof>
+  </p>
+
+  
+
+</section>

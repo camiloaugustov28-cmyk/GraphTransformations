@@ -10,4 +10,6 @@
   <!-- include sections -->
   <xi:include href="sec-section-PointsOnGraphs.ptx" />
 
+  <xi:include href="sec-section-TransfARC.ptx" />
+
 </chapter>
