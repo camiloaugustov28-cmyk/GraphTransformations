@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Some proofs</title>
+<title>Effect of transformations on the average rate of change</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -129,7 +129,7 @@ eBookConfig.enable_chatcodes =  false;
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="front-colophon.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="my-great-book.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-section-PointsOnGraphs.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-section-PointsOnGraphs.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-chapter-proofs.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
@@ -142,23 +142,51 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-chapter-proofs.html" class="internal"><span class="codenumber">1</span> <span class="title">Some proofs</span></a></div>
-<ul class="structural toc-item-list active">
+<ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-section-PointsOnGraphs.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Effect of transformations on points</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-section-TransformationsARC.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Effect of transformations on the average rate of change</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-section-TransformationsARC.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Effect of transformations on the average rate of change</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="chapter" id="ch-chapter-proofs"><h2 class="heading">
-<span class="type">Chapter</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Some proofs</span>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-section-TransformationsARC"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Effect of transformations on the average rate of change</span>
 </h2>
-<section class="introduction" id="ch-chapter-proofs-2"><div class="para" id="ch-chapter-proofs-2-1">We will see some proofs of the studied behaviors and characteristics of the transformations.<div class="autopermalink" data-description="Paragraph"><a href="#ch-chapter-proofs-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></section><nav class="summary-links"><ul>
-<li><a href="sec-section-PointsOnGraphs.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Effect of transformations on points</span></a></li>
-<li><a href="sec-section-TransformationsARC.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Effect of transformations on the average rate of change</span></a></li>
-</ul></nav><div class="autopermalink" data-description="Chapter 1: Some proofs"><a href="#ch-chapter-proofs" title="Copy heading and permalink for Chapter 1: Some proofs" aria-label="Copy heading and permalink for Chapter 1: Some proofs">🔗</a></div></section></div>
+<div class="para" id="sec-section-TransformationsARC-2">Now we formalize the observed relations between the average rate of change of a function <span class="process-math">\(f\)</span> and the average rate of change of each of its respective transformations.<div class="autopermalink" data-description="Paragraph"><a href="#sec-section-TransformationsARC-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-section-TransformationsARC-3">
+<article class="proposition theorem-like" id="prop-ARCVerticalShift"><h3 class="heading">
+<span class="type">Proposition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para logical" id="prop-ARCVerticalShift-1-1">
+<div class="para">If <span class="process-math">\(g(x)=f(x)+k\text{,}\)</span> then</div>
+<div class="displaymath process-math" id="prop-ARCVerticalShift-1-1-2">
+\begin{equation*}
+ARC_{[a,b]}(g)=ARC_{[a,b]}(f)
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#prop-ARCVerticalShift-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Proposition 1.2.1"><a href="#prop-ARCVerticalShift" title="Copy heading and permalink for Proposition 1.2.1" aria-label="Copy heading and permalink for Proposition 1.2.1">🔗</a></div></article><div class="autopermalink" data-description="Paragraph"><a href="#sec-section-TransformationsARC-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-section-TransformationsARC-4">
+<details id="sec-section-TransformationsARC-4-1" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h3 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3></summary><article class="hiddenproof knowl__content"><div class="para logical" id="sec-section-TransformationsARC-4-1-1">
+<div class="para">Since <span class="process-math">\(g\)</span> is a vertical transformation of <span class="process-math">\(f\text{,}\)</span> the <span class="process-math">\(x-\)</span>values are not affected by the transformation. So, we compute the average rate of change of <span class="process-math">\(g\)</span> over the same interval we compute the average rate of change of <span class="process-math">\(f\text{.}\)</span> We have</div>
+<div class="displaymath process-math" id="sec-section-TransformationsARC-4-1-1-6">
+\begin{align*}
+ARC_{[a,b]}(g)= \amp\frac{g(b)-g(a)}{b-a} \\
+=\amp\frac{(f(b)+k)-(f(a)+k)}{b-a} \\
+= \amp\frac{f(b)-f(a)}{b-a} \\
+= \amp ARC_{[a,b]}(f) 
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-section-TransformationsARC-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Proof 1"><a href="#sec-section-TransformationsARC-4-1" title="Copy heading and permalink for Proof 1" aria-label="Copy heading and permalink for Proof 1">🔗</a></div></article></details><div class="autopermalink" data-description="Paragraph"><a href="#sec-section-TransformationsARC-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section 1.2: Effect of transformations on the average rate of change"><a href="#sec-section-TransformationsARC" title="Copy heading and permalink for Section 1.2: Effect of transformations on the average rate of change" aria-label="Copy heading and permalink for Section 1.2: Effect of transformations on the average rate of change">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<a class="previous-button button" href="front-colophon.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-section-PointsOnGraphs.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="sec-section-PointsOnGraphs.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">

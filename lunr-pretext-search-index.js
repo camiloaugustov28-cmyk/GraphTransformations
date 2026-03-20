@@ -55,6 +55,33 @@ var ptx_lunr_docs = [
   "body": " Let be a function with domain . By definition Let be a function with domain defined by (a horizontal dilation of .) Then . Write for some . Then   "
 },
 {
+  "id": "sec-section-TransformationsARC",
+  "level": "1",
+  "url": "sec-section-TransformationsARC.html",
+  "type": "Section",
+  "number": "1.2",
+  "title": "Effect of transformations on the average rate of change",
+  "body": " Effect of transformations on the average rate of change  Now we formalize the observed relations between the average rate of change of a function and the average rate of change of each of its respective transformations.     If , then        Since is a vertical transformation of , the values are not affected by the transformation. So, we compute the average rate of change of over the same interval we compute the average rate of change of . We have     "
+},
+{
+  "id": "prop-ARCVerticalShift",
+  "level": "2",
+  "url": "sec-section-TransformationsARC.html#prop-ARCVerticalShift",
+  "type": "Proposition",
+  "number": "1.2.1",
+  "title": "",
+  "body": "  If , then    "
+},
+{
+  "id": "sec-section-TransformationsARC-4-1",
+  "level": "2",
+  "url": "sec-section-TransformationsARC.html#sec-section-TransformationsARC-4-1",
+  "type": "Proof",
+  "number": "1",
+  "title": "",
+  "body": " Since is a vertical transformation of , the values are not affected by the transformation. So, we compute the average rate of change of over the same interval we compute the average rate of change of . We have   "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
