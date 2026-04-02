@@ -61,7 +61,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Effect of transformations on the average rate of change",
-  "body": " Effect of transformations on the average rate of change  Now we formalize the observed relations between the average rate of change of a function and the average rate of change of each of its respective transformations.     If , then        Since is a vertical transformation of , the values are not affected by the transformation. So, we compute the average rate of change of over the same interval we compute the average rate of change of . We have     "
+  "body": " Effect of transformations on the average rate of change  Now we formalize the observed relations between the average rate of change of a function and the average rate of change of each of its respective transformations.     If , then        Since is a vertical transformation of , the values are not affected by the transformation. So, we compute the average rate of change of over the same interval we compute the average rate of change of . We have        If , then        Since is a vertical transformation of , the values are not affected by the transformation. So, we compute the average rate of change of over the same interval we compute the average rate of change of . We have        If , then        Since is a horizontal shift of , if and are values for the graph of , then and are the corresponding values on the graph of . So, if the average rate of change of is computed on the interval , then the corresponding average rate of change of needs to be computed on the interval . We have        If , then        Since is a horizontal dilation of , if and are values for the graph of , then and are the corresponding values on the graph of . So, if the average rate of change of is computed on the interval , then the corresponding average rate of change of needs to be computed on the interval . We have     "
 },
 {
   "id": "prop-ARCVerticalShift",
@@ -80,6 +80,60 @@ var ptx_lunr_docs = [
   "number": "1",
   "title": "",
   "body": " Since is a vertical transformation of , the values are not affected by the transformation. So, we compute the average rate of change of over the same interval we compute the average rate of change of . We have   "
+},
+{
+  "id": "prop-ARCVerticalDilation",
+  "level": "2",
+  "url": "sec-section-TransformationsARC.html#prop-ARCVerticalDilation",
+  "type": "Proposition",
+  "number": "1.2.2",
+  "title": "",
+  "body": "  If , then    "
+},
+{
+  "id": "sec-section-TransformationsARC-6-1",
+  "level": "2",
+  "url": "sec-section-TransformationsARC.html#sec-section-TransformationsARC-6-1",
+  "type": "Proof",
+  "number": "1",
+  "title": "",
+  "body": " Since is a vertical transformation of , the values are not affected by the transformation. So, we compute the average rate of change of over the same interval we compute the average rate of change of . We have   "
+},
+{
+  "id": "prop-ARCHorizontalShift",
+  "level": "2",
+  "url": "sec-section-TransformationsARC.html#prop-ARCHorizontalShift",
+  "type": "Proposition",
+  "number": "1.2.3",
+  "title": "",
+  "body": "  If , then    "
+},
+{
+  "id": "sec-section-TransformationsARC-8-1",
+  "level": "2",
+  "url": "sec-section-TransformationsARC.html#sec-section-TransformationsARC-8-1",
+  "type": "Proof",
+  "number": "1",
+  "title": "",
+  "body": " Since is a horizontal shift of , if and are values for the graph of , then and are the corresponding values on the graph of . So, if the average rate of change of is computed on the interval , then the corresponding average rate of change of needs to be computed on the interval . We have   "
+},
+{
+  "id": "prop-ARCHorizontalDilation",
+  "level": "2",
+  "url": "sec-section-TransformationsARC.html#prop-ARCHorizontalDilation",
+  "type": "Proposition",
+  "number": "1.2.4",
+  "title": "",
+  "body": "  If , then    "
+},
+{
+  "id": "sec-section-TransformationsARC-10-1",
+  "level": "2",
+  "url": "sec-section-TransformationsARC.html#sec-section-TransformationsARC-10-1",
+  "type": "Proof",
+  "number": "1",
+  "title": "",
+  "body": " Since is a horizontal dilation of , if and are values for the graph of , then and are the corresponding values on the graph of . So, if the average rate of change of is computed on the interval , then the corresponding average rate of change of needs to be computed on the interval . We have   "
 },
 {
   "id": "backmatter-2",
