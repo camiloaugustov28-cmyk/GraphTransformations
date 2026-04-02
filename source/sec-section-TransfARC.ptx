@@ -33,6 +33,89 @@
     </proof>
   </p>
 
-  
+<p>
+    <proposition xml:id="prop-ARCVerticalDilation">
+      <statement>
+        <p>
+          If <m>g(x)=A\cdot f(x)</m>, then <md>
+            ARC_{[a,b]}(g)=A\cdot ARC_{[a,b]}(f)
+          </md>
+          
+        </p>
+      </statement>
+    </proposition>
+  </p>
+
+  <p>
+    <proof>
+      <p>
+        Since <m>g</m> is a vertical transformation of <m>f</m>, the <m>x-</m>values are not affected by the transformation. So, we compute the average rate of change of <m>g</m> over the same interval we compute the average rate of change of <m>f</m>. We have 
+        <md>
+            <mrow>ARC_{[a,b]}(g)= \amp\frac{g(b)-g(a)}{b-a} </mrow>
+            <mrow> =\amp\frac{A\cdot f(b)-A\cdot f(a)}{b-a} </mrow>
+            <mrow> = \amp\frac{A\cdot (f(b)-f(a))}{b-a} </mrow>
+            <mrow> = \amp A\cdot\frac{f(b)-f(a)}{b-a} </mrow>
+            <mrow> = \amp A\cdot ARC_{[a,b]}(f) </mrow>
+        </md>
+        
+        </p>
+    </proof>
+  </p>
+
+<p>
+    <proposition xml:id="prop-ARCHorizontalShift">
+      <statement>
+        <p>
+          If <m>g(x)=f(x-h)</m>, then <md>
+            ARC_{[a+h,b+h]}(g)= ARC_{[a,b]}(f)
+          </md>
+          
+        </p>
+      </statement>
+    </proposition>
+  </p>
+
+  <p>
+    <proof>
+      <p>
+        Since <m>g</m> is a horizontal shift of <m>f</m>, if <m>a</m> and <m>b</m> are <m>x-</m>values for the graph of <m>f</m>, then <m>a+h</m> and <m>b+h</m> are the corresponding <m>x-</m>values on the graph of <m>g</m>. So, if the average rate of change of <m>f</m> is computed on the interval <m>[a,b]</m>, then the corresponding average rate of change of <m>g</m> needs to be computed on the interval <m>[a+h,b+h]</m>. We have 
+        <md>
+            <mrow>ARC_{[a+h,b+h]}(g)= \amp\frac{g(b+h)-g(a+h)}{(b+h)-(a+h)} </mrow>
+            <mrow> =\amp\frac{f((b+h)-h)- f((a+h)-h)}{b-a} </mrow>
+            <mrow> = \amp\frac{f(b)-f(a)}{b-a} </mrow>
+            <mrow> = \amp ARC_{[a,b]}(f) </mrow>
+        </md>
+        
+        </p>
+    </proof>
+  </p>
+
+  <p>
+    <proposition xml:id="prop-ARCHorizontalDilation">
+      <statement>
+        <p>
+          If <m>g(x)=f(Bx)</m>, then <md>
+            ARC_{\left[\frac{a}{B},\frac{b}{B}\right]}(g)= B\cdot ARC_{[a,b]}(f)
+          </md>
+          
+        </p>
+      </statement>
+    </proposition>
+  </p>
+
+  <p>
+    <proof>
+      <p>
+        Since <m>g</m> is a horizontal dilation of <m>f</m>, if <m>a</m> and <m>b</m> are <m>x-</m>values for the graph of <m>f</m>, then <m>\frac{a}{B}</m> and <m>\frac{b}{B}</m> are the corresponding <m>x-</m>values on the graph of <m>g</m>. So, if the average rate of change of <m>f</m> is computed on the interval <m>[a,b]</m>, then the corresponding average rate of change of <m>g</m> needs to be computed on the interval <m>\left[\frac{a}{B},\frac{b}{B}\right]</m>. We have 
+        <md>
+            <mrow>ARC_{\left[\frac{a}{B},\frac{b}{B}\right]}(g)= \amp\frac{g\left(\frac{b}{B}\right)-g\left(\frac{a}{B}\right)}{\frac{b}{B}-\frac{a}{B}} </mrow>
+            <mrow> =\amp\frac{f\left(B\left(\frac{b}{B}\right)\right)- f\left(B\left(\frac{a}{B}\right)\right)}{\frac{b-a}{B}} </mrow>
+            <mrow> = \amp B\cdot\frac{f(b)-f(a)}{b-a} </mrow>
+            <mrow> = \amp B\cdot ARC_{[a,b]}(f) </mrow>
+        </md>
+        
+        </p>
+    </proof>
+  </p>
 
 </section>
