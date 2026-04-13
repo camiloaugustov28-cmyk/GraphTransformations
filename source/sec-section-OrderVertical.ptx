@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-OrderVertical" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Order on vertical transformations</title>
+
+  <p> We will see how to apply more than one vertical transformation on the same graph.</p>
+    <p>
+        Since vertical dilations, reflections across the <m>x-</m>axis, and vertical shifts act all on <m>y-</m>values, it is natural to wonder if applying them in any order will produce the same final graph. Let's see how these transformations interact using the below graph.
+    </p>
+    <p>
+        We will start with the graph of a function <m>f</m> and will consider the transformation <m>A\cdot f(x)+k</m>. We will work using a two-step procedure as follows
+    </p>
+    <p>
+        <ol>
+            <li>
+                <p>
+                    Set <m>A=2</m> and <m>k=3</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Define <m>p(x)=f(x)+k</m> and <m>q(x)=A\cdot p(x)</m>. The final graph will be the graph of <m>q</m> shown in blue.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Now, define <m>g(x)=A\cdot f(x)</m> and <m>h(x)=g(x)+k</m>. The final graph will be the graph of <m>h</m> show in purple.
+                </p>
+            </li>
+        </ol>
+    </p>
+    <p>
+        <figure>
+    <interactive desmos="eonabxkwkq" width="100%" aspect="2:3"/>
+    <caption>Order in vertical transformations</caption>
+</figure>
+
+    </p>
+    <p>
+        As you can see, the graphs obtained for step 2 and step 3 are different. Let's discuss what's happening there. 
+    </p>
+    <exercises xml:id="exercises-OrderVertical">
+        <exercise label="multiple-choice-Orderq">
+            <title>Multiple-Choice, Randomized, One Answer</title>
+            <idx>vert shift first</idx>
+            <statement>
+                <p>To obtain the graph of <m>q</m>, we</p>
+            </statement>
+            <choices randomize="yes">
+                <choice>
+                    <statement>
+                        <p>apply a vertical shift 3 down first, followed by a vertical stretch by a factor of 2</p>
+                    </statement>
+                    
+                </choice>
+                <choice correct="yes">
+                    <statement>
+                        <p>apply a vertical shift 3 up first, followed by a vertical stretch by a factor of 2</p>
+                    </statement>
+                    
+                </choice>
+                <choice>
+                    <statement>
+                        <p>apply a vertical stretch by a factor of 2 first, followed by a vertical shift 3 units up</p>
+                    </statement>
+                    
+                </choice>
+
+                <choice>
+                    <statement>
+                        <p>apply a vertical compression by a factor of 2 first, followed by a vertical shift 3 units up</p>
+                    </statement>
+                    
+                </choice>
+            </choices>
+            
+        </exercise>
+
+        <exercise label="multiple-choice-Orderh">
+            <title>Multiple-Choice, Randomized, One Answer</title>
+            <idx>vert shift first</idx>
+            <statement>
+                <p>To obtain the graph of <m>h</m>, we</p>
+            </statement>
+            <choices randomize="yes">
+                <choice>
+                    <statement>
+                        <p>apply a vertical shift 3 down first, followed by a vertical stretch by a factor of 2</p>
+                    </statement>
+                    
+                </choice>
+                <choice>
+                    <statement>
+                        <p>apply a vertical shift 3 up first, followed by a vertical stretch by a factor of 2</p>
+                    </statement>
+                    
+                </choice>
+                <choice correct="yes">
+                    <statement>
+                        <p>apply a vertical stretch by a factor of 2 first, followed by a vertical shift 3 units up</p>
+                    </statement>
+                    
+                </choice>
+
+                <choice>
+                    <statement>
+                        <p>apply a vertical compression by a factor of 2 first, followed by a vertical shift 3 units up</p>
+                    </statement>
+                    
+                </choice>
+            </choices>
+            
+        </exercise>
+    </exercises>
+
+    <p>
+        It remains to see whether the graph of <m>h</m> or the graph of <m>q</m> corresponds to the correct graph of <m>A\cdot f(x)+k</m>. To see this, we define <m>w(x)=A\cdot f(x)+k</m> in the applet above, and we click on the circle on the left to make its graph visible (in green). The graph will agree with either the graph of <m>h</m> or the graph of <m>q</m>.
+    </p>
+    <exercises xml:id="exercises-VerticalOrder">
+        
+        <exercise label="multiple-choice-OrderA2k3">
+            <title>Multiple-Choice, Randomized, One Answer</title>
+            <idx>vert shift first</idx>
+            <statement>
+                <p>To obtain the graph of <m>2\cdot f(x)+3</m>, we</p>
+            </statement>
+            <choices randomize="yes">
+                <choice>
+                    <statement>
+                        <p>apply a vertical shift 3 down first, followed by a vertical stretch by a factor of 2</p>
+                    </statement>
+                    
+                </choice>
+                <choice>
+                    <statement>
+                        <p>apply a vertical shift 3 up first, followed by a vertical stretch by a factor of 2</p>
+                    </statement>
+                    
+                </choice>
+                <choice correct="yes">
+                    <statement>
+                        <p>apply a vertical stretch by a factor of 2 first, followed by a vertical shift 3 units up</p>
+                    </statement>
+                    
+                </choice>
+
+                <choice>
+                    <statement>
+                        <p>apply a vertical compression by a factor of 2 first, followed by a vertical shift 3 units up</p>
+                    </statement>
+                    
+                </choice>
+            </choices>
+            
+        </exercise>
+    </exercises>
+     
+
+</section>

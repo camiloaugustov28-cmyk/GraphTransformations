@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-chapter-ordermatters" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Order matters</title>
+
+  <introduction>
+    <p> Chapter to see how order matters when applying several transformations on a single graph </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-section-OrderVertical.ptx" />
+
+  
+
+</chapter>
