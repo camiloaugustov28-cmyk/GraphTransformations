@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-OrderHorizontal" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Order on horizontal transformations</title>
+
+  <p> We will see how to apply more than one horizontal transformation on the same graph.</p>
+    <p>
+        Since horizontal dilations, reflections across the <m>y-</m>axis, and horizontal shifts act all on <m>x-</m>values, it is natural to wonder if applying them in any order will produce the same final graph. Let's see how these transformations interact using the below graph.
+    </p>
+    <p>
+        We will start with the graph of a function <m>f</m> and will consider the transformation <m>f(B(x-h))</m>. We will work using a two-step procedure as follows
+    </p>
+    <p>
+        <ol>
+            <li>
+                <p>
+                    Set <m>B=2</m> and <m>h=3</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Define <m>p(x)=f(x-h)</m> and <m>q(x)=p(Bx)</m>. The final graph will be the graph of <m>q</m> shown in blue.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Now, define <m>s(x)=f(Bx)</m> and <m>t(x)=s(x-h)</m>. The final graph will be the graph of <m>t</m> shown in green.
+                </p>
+            </li>
+        </ol>
+    </p>
+    <p>
+        <figure>
+    <interactive desmos="d0x6aom4rk" width="100%" aspect="2:3"/>
+    <caption>Order in horizontal transformations</caption>
+</figure>
+
+    </p>
+    <p>
+        As you can see, the graphs obtained for step 2 and step 3 are different. Let's discuss what's happening there. 
+    </p>
+    <exercises xml:id="exercises-OrderHorizontal">
+        <exercise label="multiple-choice-HorShiftFirst">
+            <title>Multiple-Choice, Randomized, One Answer</title>
+            <idx>vert shift first</idx>
+            <statement>
+                <p>To obtain the graph of <m>q</m>, we</p>
+            </statement>
+            <choices randomize="yes">
+                <choice>
+                    <statement>
+                        <p>apply a horizontal shift 3 units left first, followed by a horizontal stretch by a factor of 2</p>
+                    </statement>
+                    
+                </choice>
+                <choice correct="yes">
+                    <statement>
+                        <p>apply a horizontal shift 3 units right first, followed by a horizontal compression by a factor of <m>1/2</m></p>
+                    </statement>
+                    
+                </choice>
+                <choice>
+                    <statement>
+                        <p>apply a horizontal compression by a factor of <m>1/2</m> first, followed by a horizontal shift 3 units right</p>
+                    </statement>
+                    
+                </choice>
+
+                <choice>
+                    <statement>
+                        <p>apply a horizontal stretch by a factor of 2 first, followed by a horizontal shift 3 units left</p>
+                    </statement>
+                    
+                </choice>
+            </choices>
+            
+        </exercise>
+
+        <exercise label="multiple-choice-HorCompFirst">
+            <title>Multiple-Choice, Randomized, One Answer</title>
+            <idx>vert shift first</idx>
+            <statement>
+                <p>To obtain the graph of <m>t</m>, we</p>
+            </statement>
+            <choices randomize="yes">
+                <choice>
+                    <statement>
+                        <p>apply a horizontal shift 3 units left first, followed by a horizontal stretch by a factor of 2</p>
+                    </statement>
+                    
+                </choice>
+                <choice>
+                    <statement>
+                        <p>apply a horizontal shift 3 units right first, followed by a horizontal compression by a factor of 2</p>
+                    </statement>
+                    
+                </choice>
+                <choice correct="yes">
+                    <statement>
+                        <p>apply a horizontal dilation by a factor of <m>1/2</m> first, followed by a horizontal shift 3 units right</p>
+                    </statement>
+                    
+                </choice>
+
+                <choice>
+                    <statement>
+                        <p>apply a horizontal compression by a factor of 2 first, followed by a vertical shift 3 units right</p>
+                    </statement>
+                    
+                </choice>
+            </choices>
+            
+        </exercise>
+    </exercises>
+
+    <p>
+        It remains to see whether the graph of <m>t</m> or the graph of <m>q</m> corresponds to the correct graph of <m>f(B(x-h))</m>. To see this, we define <m>w(x)=f(B(x-h))</m> in the applet above, and we click on the circle on the left to make its graph visible (in black). The graph will agree with either the graph of <m>t</m> or the graph of <m>q</m>.
+    </p>
+    <exercises xml:id="exercises-HorizontalOrder">
+        
+        <exercise label="multiple-choice-OrderB2h3">
+            <title>Multiple-Choice, Randomized, One Answer</title>
+            <idx>vert shift first</idx>
+            <statement>
+                <p>To obtain the graph of <m>f(2(x-3))</m>, we</p>
+            </statement>
+            <choices randomize="yes">
+                <choice>
+                    <statement>
+                        <p>apply a horizontal shift 3 units left first, followed by a horizontal stretch by a factor of 2</p>
+                    </statement>
+                    
+                </choice>
+                <choice>
+                    <statement>
+                        <p>apply a horizontal shift 3 units right first, followed by a horizontal stretch by a factor of 2</p>
+                    </statement>
+                    
+                </choice>
+                <choice correct="yes">
+                    <statement>
+                        <p>apply a horizontal compression by a factor of <m>1/2</m> first, followed by a horizontal shift 3 units right</p>
+                    </statement>
+                    
+                </choice>
+
+                <choice>
+                    <statement>
+                        <p>apply a horizontal compression by a factor of 2 first, followed by a horizontal shift 3 units right</p>
+                    </statement>
+                    
+                </choice>
+            </choices>
+            
+        </exercise>
+    </exercises>
+
+    <p>
+        Before we generalize the observed behavior, let's make sure that if we take negative values for <m>B</m> and <m>h</m>, that behavior still holds. So, set <m>B=-2</m> and <m>h=-3</m>, and repeat the previous steps.
+    </p>
+     
+<exercises xml:id="exercises-HorizontalOrder2">
+        
+        <exercise label="multiple-choice-OrderB-2h-3">
+            <title>Multiple-Choice, Randomized, One Answer</title>
+            <idx>vert shift first</idx>
+            <statement>
+                <p>To obtain the graph of <m>f(-2(x+3))</m>, we</p>
+            </statement>
+            <choices randomize="yes">
+                <choice>
+                    <statement>
+                        <p>apply a horizontal shift 3 units left first, followed by a horizontal stretch by a factor of 2</p>
+                    </statement>
+                    
+                </choice>
+                <choice>
+                    <statement>
+                        <p>apply a horizontal shift 3 units left first, followed by a horizontal compression by a factor of <m>1/2</m></p>
+                    </statement>
+                    
+                </choice>
+                <choice correct="yes">
+                    <statement>
+                        <p>apply a horizontal compression by a factor of <m>1/2</m> first followed by a reflection across the <m>y-</m>axis, and finally apply a horizontal shift 3 units left</p>
+                    </statement>
+                    
+                </choice>
+
+                <choice>
+                    <statement>
+                        <p>apply a horizontal compression by a factor of <m>1/2</m> first, followed by a horizontal shift 3 units left</p>
+                    </statement>
+                    
+                </choice>
+            </choices>
+            
+        </exercise>
+    </exercises>
+
+    <p>
+        Now, we generalize what we learned from these examples.
+    </p>
+    <p>
+        <proposition xml:id="prop-HorizontalOrder">
+            <statement>
+                <p>
+                    Let <m>B,h</m> be non-zero real numbers such that <m>g(x)=f(B(x-h))</m>. To obtain the graph of <m>g</m> from the graph of <m>f</m>, apply the horizontal transformation in the following order:
+                </p>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                Apply a horizontal dilation by a factor of <m>\frac{1}{|B|}</m>. If <m>B\lt 0</m>, then also apply a reflection across the <m>y-</m>axis.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Apply a horizontal shift of <m>h</m> units (right if <m>h\gt 0</m> or down if <m>h\lt 0</m>).
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </proposition>
+    </p>
+
+    <p>
+        <remark>
+            <p>Observe that the proposed order is applied to expressions of the form <m>B(x-h)</m>, that is, to factored expressions inside the function. So, to apply the corresponding horizontal transformations to expressions like <m>f(3x-12)</m>, first rewrite it as <m>f(3(x-4))</m> and then apply the transformations in the order discussed above.</p>
+        </remark>
+    </p>
+    <exercises xml:id="exercises-HorizontalOrderPractice">
+        
+        <exercise label="multiple-choice-HorizontalOrderPoint">
+            <title>Multiple-Choice, Randomized, One Answer</title>
+            <idx>vert shift first</idx>
+            <statement>
+                <p>Let <m>g(x)=f(-4x-8)</m>. If the point <m>(16,-16)</m> lies on the graph of <m>f</m>, then the respective point on the graph of <m>g</m> is</p>
+            </statement>
+            <choices randomize="yes">
+                <choice>
+                    <statement>
+                        <p><m>(-4,-24)</m></p>
+                    </statement>
+                    
+                </choice>
+                <choice>
+                    <statement>
+                        <p><m>(-64,-8)</m></p>
+                    </statement>
+                    
+                </choice>
+                <choice correct="yes">
+                    <statement>
+                        <p><m>(-6,-16)</m></p>
+                    </statement>
+                    
+                </choice>
+
+                <choice>
+                    <statement>
+                        <p><m>(-56,-16)</m></p>
+                    </statement>
+                    
+                </choice>
+            </choices>
+            
+        </exercise>
+    </exercises>
+</section>

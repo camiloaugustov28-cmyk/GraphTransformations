@@ -9,6 +9,9 @@
 
   <!-- include sections -->
   <xi:include href="sec-section-OrderVertical.ptx" />
+  <xi:include href="sec-section-OrderHorizontal.ptx" />
+  <xi:include href="sec-section-OrderAll.ptx" />
+
 
   
 
