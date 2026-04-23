@@ -82,6 +82,96 @@ var ptx_lunr_docs = [
   "body": " Multiple-Choice, Randomized, One Answer  vert shift first   Let . If the point lies on the graph of , then the respective point on the graph of is                         "
 },
 {
+  "id": "sec-section-OrderHorizontal",
+  "level": "1",
+  "url": "sec-section-OrderHorizontal.html",
+  "type": "Section",
+  "number": "1.2",
+  "title": "Order on horizontal transformations",
+  "body": " Order on horizontal transformations  We will see how to apply more than one horizontal transformation on the same graph.  Since horizontal dilations, reflections across the axis, and horizontal shifts act all on values, it is natural to wonder if applying them in any order will produce the same final graph. Let's see how these transformations interact using the below graph.  We will start with the graph of a function and will consider the transformation . We will work using a two-step procedure as follows     Set and .    Define and . The final graph will be the graph of shown in blue.    Now, define and . The final graph will be the graph of shown in green.        Order in horizontal transformations    As you can see, the graphs obtained for step 2 and step 3 are different. Let's discuss what's happening there.    Multiple-Choice, Randomized, One Answer  vert shift first   To obtain the graph of , we      apply a horizontal shift 3 units left first, followed by a horizontal stretch by a factor of 2      apply a horizontal shift 3 units right first, followed by a horizontal compression by a factor of      apply a horizontal compression by a factor of first, followed by a horizontal shift 3 units right      apply a horizontal stretch by a factor of 2 first, followed by a horizontal shift 3 units left       Multiple-Choice, Randomized, One Answer  vert shift first   To obtain the graph of , we      apply a horizontal shift 3 units left first, followed by a horizontal stretch by a factor of 2      apply a horizontal shift 3 units right first, followed by a horizontal compression by a factor of 2      apply a horizontal dilation by a factor of first, followed by a horizontal shift 3 units right      apply a horizontal compression by a factor of 2 first, followed by a vertical shift 3 units right       It remains to see whether the graph of or the graph of corresponds to the correct graph of . To see this, we define in the applet above, and we click on the circle on the left to make its graph visible (in black). The graph will agree with either the graph of or the graph of .    Multiple-Choice, Randomized, One Answer  vert shift first   To obtain the graph of , we      apply a horizontal shift 3 units left first, followed by a horizontal stretch by a factor of 2      apply a horizontal shift 3 units right first, followed by a horizontal stretch by a factor of 2      apply a horizontal compression by a factor of first, followed by a horizontal shift 3 units right      apply a horizontal compression by a factor of 2 first, followed by a horizontal shift 3 units right       Before we generalize the observed behavior, let's make sure that if we take negative values for and , that behavior still holds. So, set and , and repeat the previous steps.    Multiple-Choice, Randomized, One Answer  vert shift first   To obtain the graph of , we      apply a horizontal shift 3 units left first, followed by a horizontal stretch by a factor of 2      apply a horizontal shift 3 units left first, followed by a horizontal compression by a factor of      apply a horizontal compression by a factor of first followed by a reflection across the axis, and finally apply a horizontal shift 3 units left      apply a horizontal compression by a factor of first, followed by a horizontal shift 3 units left       Now, we generalize what we learned from these examples.     Let be non-zero real numbers such that . To obtain the graph of from the graph of , apply the horizontal transformation in the following order:     Apply a horizontal dilation by a factor of . If , then also apply a reflection across the axis.    Apply a horizontal shift of units (right if or down if ).          Observe that the proposed order is applied to expressions of the form , that is, to factored expressions inside the function. So, to apply the corresponding horizontal transformations to expressions like , first rewrite it as and then apply the transformations in the order discussed above.      Multiple-Choice, Randomized, One Answer  vert shift first   Let . If the point lies on the graph of , then the respective point on the graph of is                           "
+},
+{
+  "id": "sec-section-OrderHorizontal-6-1",
+  "level": "2",
+  "url": "sec-section-OrderHorizontal.html#sec-section-OrderHorizontal-6-1",
+  "type": "Figure",
+  "number": "1.2.1",
+  "title": "",
+  "body": "  Order in horizontal transformations  "
+},
+{
+  "id": "multiple-choice-HorShiftFirst",
+  "level": "2",
+  "url": "sec-section-OrderHorizontal.html#multiple-choice-HorShiftFirst",
+  "type": "Exercise",
+  "number": "1.2.1",
+  "title": "Multiple-Choice, Randomized, One Answer.",
+  "body": " Multiple-Choice, Randomized, One Answer  vert shift first   To obtain the graph of , we      apply a horizontal shift 3 units left first, followed by a horizontal stretch by a factor of 2      apply a horizontal shift 3 units right first, followed by a horizontal compression by a factor of      apply a horizontal compression by a factor of first, followed by a horizontal shift 3 units right      apply a horizontal stretch by a factor of 2 first, followed by a horizontal shift 3 units left     "
+},
+{
+  "id": "multiple-choice-HorCompFirst",
+  "level": "2",
+  "url": "sec-section-OrderHorizontal.html#multiple-choice-HorCompFirst",
+  "type": "Exercise",
+  "number": "1.2.2",
+  "title": "Multiple-Choice, Randomized, One Answer.",
+  "body": " Multiple-Choice, Randomized, One Answer  vert shift first   To obtain the graph of , we      apply a horizontal shift 3 units left first, followed by a horizontal stretch by a factor of 2      apply a horizontal shift 3 units right first, followed by a horizontal compression by a factor of 2      apply a horizontal dilation by a factor of first, followed by a horizontal shift 3 units right      apply a horizontal compression by a factor of 2 first, followed by a vertical shift 3 units right     "
+},
+{
+  "id": "multiple-choice-OrderB2h3",
+  "level": "2",
+  "url": "sec-section-OrderHorizontal.html#multiple-choice-OrderB2h3",
+  "type": "Exercise",
+  "number": "1.2.1",
+  "title": "Multiple-Choice, Randomized, One Answer.",
+  "body": " Multiple-Choice, Randomized, One Answer  vert shift first   To obtain the graph of , we      apply a horizontal shift 3 units left first, followed by a horizontal stretch by a factor of 2      apply a horizontal shift 3 units right first, followed by a horizontal stretch by a factor of 2      apply a horizontal compression by a factor of first, followed by a horizontal shift 3 units right      apply a horizontal compression by a factor of 2 first, followed by a horizontal shift 3 units right     "
+},
+{
+  "id": "multiple-choice-OrderB-2h-3",
+  "level": "2",
+  "url": "sec-section-OrderHorizontal.html#multiple-choice-OrderB-2h-3",
+  "type": "Exercise",
+  "number": "1.2.1",
+  "title": "Multiple-Choice, Randomized, One Answer.",
+  "body": " Multiple-Choice, Randomized, One Answer  vert shift first   To obtain the graph of , we      apply a horizontal shift 3 units left first, followed by a horizontal stretch by a factor of 2      apply a horizontal shift 3 units left first, followed by a horizontal compression by a factor of      apply a horizontal compression by a factor of first followed by a reflection across the axis, and finally apply a horizontal shift 3 units left      apply a horizontal compression by a factor of first, followed by a horizontal shift 3 units left     "
+},
+{
+  "id": "prop-HorizontalOrder",
+  "level": "2",
+  "url": "sec-section-OrderHorizontal.html#prop-HorizontalOrder",
+  "type": "Proposition",
+  "number": "1.2.2",
+  "title": "",
+  "body": "  Let be non-zero real numbers such that . To obtain the graph of from the graph of , apply the horizontal transformation in the following order:     Apply a horizontal dilation by a factor of . If , then also apply a reflection across the axis.    Apply a horizontal shift of units (right if or down if ).      "
+},
+{
+  "id": "sec-section-OrderHorizontal-15-1",
+  "level": "2",
+  "url": "sec-section-OrderHorizontal.html#sec-section-OrderHorizontal-15-1",
+  "type": "Remark",
+  "number": "1.2.3",
+  "title": "",
+  "body": " Observe that the proposed order is applied to expressions of the form , that is, to factored expressions inside the function. So, to apply the corresponding horizontal transformations to expressions like , first rewrite it as and then apply the transformations in the order discussed above.  "
+},
+{
+  "id": "multiple-choice-HorizontalOrderPoint",
+  "level": "2",
+  "url": "sec-section-OrderHorizontal.html#multiple-choice-HorizontalOrderPoint",
+  "type": "Exercise",
+  "number": "1.2.1",
+  "title": "Multiple-Choice, Randomized, One Answer.",
+  "body": " Multiple-Choice, Randomized, One Answer  vert shift first   Let . If the point lies on the graph of , then the respective point on the graph of is                         "
+},
+{
+  "id": "sec-section-OrderAll",
+  "level": "1",
+  "url": "sec-section-OrderAll.html",
+  "type": "Section",
+  "number": "1.3",
+  "title": "Putting all transformations together",
+  "body": " Putting all transformations together  Vertical and horizontal independence. Use two previous sections. Create exercises about: points, dragging the description of all transformations.  "
+},
+{
   "id": "sec-section-PointsOnGraphs",
   "level": "1",
   "url": "sec-section-PointsOnGraphs.html",
